@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "GillSansStd-Light";
+    src: url(../fonts/GillSansStd-Light.otf);
+}
+
+* {
+    font-family: "GillSansStd-Light";
+}
+
+/*---navbar---*/
+.navbar {
+    background-color: #dc3545;
+}
+
+#sombralogo {
+    filter: brightness(20%);
+}
+
+.nav-link {
+    color: white;
+    text-shadow: 0 0 5px #000;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: white !important;
+}
+
+/*---cabecera---*/
+.cabecera {
+    background-image: url(../images/crash-1308575_960_720.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    color: white;
+    text-shadow: 0 0 10px rgb(15, 15, 15);
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.cabecera h1 {
+    padding-top: 200px;
+}
+
+/*---footer---*/
+footer {
+    background-color: #dc3545;
+    text-align: center;
+    padding-top: 10px;
+}
+
+body {
+    background-color: rgba(166, 166, 180, 0.233);
+
+}
+
+/*---seccion productos----*/
+
+.card {
+    background-color: rgba(166, 166, 180, 0.233);
+}
+
+.card img {
+    filter: brightness(0%);
+}
+
+.card-title {
+    color: black;
+    text-shadow: 0 0 5px rgb(15, 15, 15);
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+/*---seccion preguntas frecuentes---*/
+
+/*---seccion Quien Soy---*/
+
+/*---seccion contacto---*/
