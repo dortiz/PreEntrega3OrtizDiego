@@ -1,0 +1,18 @@
+/*---navbar---*/
+.navbar {
+    background-color: #dc3545;
+}
+
+#sombralogo {
+    filter: brightness(20%);
+}
+
+.nav-link {
+    color: white;
+    text-shadow: 0 0 5px #000;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: white !important;
+}
