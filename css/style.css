@@ -58,6 +58,15 @@ body {
   text-align: center;
   font-size: 1.5rem; }
 
+.jumbo-productos {
+  background-image: url(../images/crash-1308575_960_720.jpg);
+  background-position: center;
+  background-size: cover;
+  text-shadow: 0 0 5px #e9e6e6;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 1.5rem; }
+
 /*---Seccion Quien Soy---*/
 .h-quien-soy {
   text-align: center;
