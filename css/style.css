@@ -5,24 +5,10 @@
 * {
   font-family: "GillSansStd-Light"; }
 
-/*---cabecera---*/
-.cabecera {
-  background-image: url(../images/crash.webp);
-  background-position: center;
-  background-size: cover;
-  height: 300px;
-  color: white;
-  text-shadow: 0 0 10px #0f0f0f;
-  text-transform: capitalize;
-  text-align: center; }
-
-.cabecera h1 {
-  padding-top: 200px; }
-
 body {
   background-color: rgba(166, 166, 180, 0.233); }
 
-/*---navbar---*/
+/*---Inicio Navbar---*/
 .navbar {
   background-color: #dc3545; }
 
@@ -37,13 +23,24 @@ body {
 .nav-link:hover {
   color: white !important; }
 
-/*---footer---*/
-footer {
-  background-color: #dc3545;
-  text-align: center;
-  padding-top: 10px; }
+/*---Fin Navbar---*/
+/*---Seccion Index---*/
+.cabecera {
+  background-image: url(../images/crash.webp);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  color: white;
+  text-shadow: 0 0 10px #0f0f0f;
+  text-transform: capitalize;
+  text-align: center; }
 
-/*---seccion productos----*/
+.cabecera h1 {
+  padding-top: 200px; }
+
+/*---Seccion Contactos---*/
+/*---Seccion Preguntas---*/
+/*---seccion Productos----*/
 .productos {
   padding-top: 10px; }
 
@@ -61,5 +58,14 @@ footer {
   text-align: center;
   font-size: 1.5rem; }
 
+/*---Seccion Quien Soy---*/
 h3 h4 h5 {
   text-align: center; }
+
+/*---Inicio Footer---*/
+footer {
+  background-color: #dc3545;
+  text-align: center;
+  padding-top: 10px; }
+
+/*---Fin Footer---*/

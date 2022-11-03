@@ -6,30 +6,14 @@
 * {
     font-family: "GillSansStd-Light";
 }
-
-/*---cabecera---*/
-.cabecera {
-    background-image: url(../images/crash.webp);
-    background-position: center;
-    background-size: cover;
-    height: 300px;
-    color: white;
-    text-shadow: 0 0 10px rgb(15, 15, 15);
-    text-transform: capitalize;
-    text-align: center;
-}
-
-.cabecera h1 {
-    padding-top: 200px;
-}
-
 body {
     background-color: rgba(166, 166, 180, 0.233);
 
 }
 @import "navbar.scss";
-@import "footer.scss";
+@import "index.scss";
 @import "contacto.scss";
 @import "preguntas.scss";
 @import "productos.scss";
 @import "quien-soy.scss";
+@import "footer.scss";
