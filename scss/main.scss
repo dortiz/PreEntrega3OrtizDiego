@@ -1,14 +1,10 @@
+$bg-color_footer-nav: #dc3545;
+$font: "GillSansStd-Light";
+$bg-color_fondo-page: #a6a6b43b;
+
 @font-face {
-    font-family: "GillSansStd-Light";
-    src: url(../fonts/GillSansStd-Light.otf);
-}
-
-* {
-    font-family: "GillSansStd-Light";
-}
-
-body {
-    background-color: rgba(166, 166, 180, 0.233);
+	font-family: "GillSansStd-Light";
+	src: url(../fonts/GillSansStd-Light.otf);
 }
 
 @import "navbar.scss";
@@ -18,3 +14,9 @@ body {
 @import "productos.scss";
 @import "quien-soy.scss";
 @import "footer.scss";
+* {
+	font-family: $font;
+}
+body {
+	background-color: $bg-color_fondo-page;
+}

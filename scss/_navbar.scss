@@ -1,19 +1,16 @@
 /*---Inicio Navbar---*/
 .navbar {
-    background-color: #dc3545;
+	background-color: $bg-color_footer-nav;
 }
-
 #sombralogo {
-    filter: brightness(20%);
+	filter: brightness(20%);
 }
-
 .nav-link {
-    color: white;
-    text-shadow: 0 0 5px #000;
-    text-transform: uppercase;
-}
-
-.nav-link:hover {
-    color: white !important;
+	color: white;
+	text-shadow: 0 0 5px #000;
+	text-transform: uppercase;
+	&:hover {
+		color: white !important;
+	}
 }
 /*---Fin Navbar---*/

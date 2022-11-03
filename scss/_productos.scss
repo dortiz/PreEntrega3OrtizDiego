@@ -1,31 +1,30 @@
+$color-card-title: black;
+$bg-color_card: #a6a6b43b;
+
 /*---seccion Productos----*/
 .productos {
-    padding-top: 10px;
+	padding-top: 10px;
 }
-
 .card {
-    background-color: rgba(166, 166, 180, 0.233);
-    padding-top: 10px;
+	background-color: $bg-color_card;
+	padding-top: 10px;
+	img {
+		filter: brightness(0%);
+	}
 }
-
-.card img {
-    filter: brightness(0%);
-}
-
 .card-title {
-    color: black;
-    text-shadow: 0 0 5px rgb(15, 15, 15);
-    text-transform: capitalize;
-    text-align: center;
-    font-size: 1.5rem;
+	color: $color-card-title;
+	text-shadow: 0 0 5px #0f0f0f;
+	text-transform: capitalize;
+	text-align: center;
+	font-size: 1.5rem;
 }
-
 .jumbo-productos {
-    background-image: url(../images/crash-1308575_960_720.jpg);
-    background-position: center;
-    background-size: cover;
-    text-shadow: 0 0 5px rgb(233, 230, 230);
-    text-transform: capitalize;
-    text-align: center;
-    font-size: 1.5rem;
+	background-image: url(../images/crash-1308575_960_720.jpg);
+	background-position: center;
+	background-size: cover;
+	text-shadow: 0 0 5px #e9e6e6;
+	text-transform: capitalize;
+	text-align: center;
+	font-size: 1.5rem;
 }
