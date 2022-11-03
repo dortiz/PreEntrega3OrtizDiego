@@ -1,3 +1,27 @@
+@font-face {
+  font-family: "GillSansStd-Light";
+  src: url(../fonts/GillSansStd-Light.otf); }
+
+* {
+  font-family: "GillSansStd-Light"; }
+
+/*---cabecera---*/
+.cabecera {
+  background-image: url(../images/crash.webp);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  color: white;
+  text-shadow: 0 0 10px #0f0f0f;
+  text-transform: capitalize;
+  text-align: center; }
+
+.cabecera h1 {
+  padding-top: 200px; }
+
+body {
+  background-color: rgba(166, 166, 180, 0.233); }
+
 /*---navbar---*/
 .navbar {
   background-color: #dc3545; }
@@ -39,27 +63,3 @@ footer {
 
 h3 h4 h5 {
   text-align: center; }
-
-@font-face {
-  font-family: "GillSansStd-Light";
-  src: url(../fonts/GillSansStd-Light.otf); }
-
-* {
-  font-family: "GillSansStd-Light"; }
-
-/*---cabecera---*/
-.cabecera {
-  background-image: url(../images/crash.webp);
-  background-position: center;
-  background-size: cover;
-  height: 300px;
-  color: white;
-  text-shadow: 0 0 10px #0f0f0f;
-  text-transform: capitalize;
-  text-align: center; }
-
-.cabecera h1 {
-  padding-top: 200px; }
-
-body {
-  background-color: rgba(166, 166, 180, 0.233); }
