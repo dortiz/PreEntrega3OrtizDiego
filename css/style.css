@@ -28,7 +28,7 @@
 
 /*---cabecera---*/
 .cabecera {
-    background-image: url(../images/crash-1308575_960_720.jpg);
+    background-image: url(../images/crash.webp);
     background-position: center;
     background-size: cover;
     height: 300px;
@@ -54,6 +54,10 @@ body {
 }
 
 /*---seccion productos----*/
+.productos {
+    padding-top: 10px;
+}
+
 .card {
     background-color: rgba(166, 166, 180, 0.233);
 }
